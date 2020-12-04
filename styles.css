@@ -1,0 +1,128 @@
+body {
+    background-color: #ECF2F8;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+@media (min-width: 1500px) {
+    .container {
+        max-width: 1500px;
+    }
+}
+
+@media(min-width:768px) {
+
+    .container,
+    .container-2,
+    .container-1 {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+.container {
+    margin-top: 2%;
+}
+
+.box {
+    margin: 1.5%;
+    border-radius: 25px;
+    padding: 3%;
+    text-align: left;
+}
+
+div {}
+
+img {
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.name-sub {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1rem;
+    margin-left: 5%;
+}
+
+.box-header {
+    display: flex;
+}
+
+.right-container {
+    flex: 1;
+}
+
+.left-container {
+    flex-direction: column;
+    flex: 3;
+}
+
+.container-2 {
+    align-items: flex-end;
+}
+
+.box-1 {
+    background: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-color: #5f19bb;
+    background-position: right top;
+    flex: 2;
+    ;
+}
+
+.box-2 {
+    background-color: #48556A;
+    flex: 1;
+
+}
+
+.box-3 {
+    background-color: #FFFFFF;
+    color: black;
+    flex: 1;
+}
+
+.box-4 {
+    background-color: #19212E;
+    flex: 2;
+}
+
+.box-5 {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.name {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: large;
+
+}
+
+.sub {
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    /* padding: 30% 0; */
+    margin: 10% 0 3% 0;
+}
+
+.box-footer {
+    opacity: 0.7;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    font-size: 0.9rem;
+}
